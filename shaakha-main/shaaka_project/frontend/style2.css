@@ -1,0 +1,265 @@
+/*index.html*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+div {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2.s1 {
+  font-size: 36px;
+  color: #337ab7;
+  margin-bottom: 20px;
+}
+nav a {
+  color: #337ab7;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: #f0f0f0; /* light gray background on hover */
+  font-weight: bold; /* bold font on hover */
+}
+/*index.html>
+
+/*farmer.html*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #337ab7;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"], button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Form Styles */
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+}
+
+/* Product Details Styles */
+
+.product-details {
+  margin-top: 20px;
+}
+
+.product-details label {
+  font-weight: bold;
+}
+
+.product-details input,.product-details textarea {
+  margin-bottom: 10px;
+}
+/*farmer.html*/
+
+/*employment.html*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+  background-color: #23527c;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: none;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu li label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dropdown-menu li input[type="radio"] {
+  margin-right: 10px;
+}
+
+.dropdown-toggle:focus +.dropdown-menu {
+  display: block;
+}
+/*employment.html*/
+
+/*customer.html*/
+/* Add this to your <style> block or an external CSS file */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+form {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#login-status {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
